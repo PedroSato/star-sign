@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "dev": "nodemon src/index.js"
+    "test": "jest",
+    "dev": "nodemon src/server.js --ignore __tests__"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,9 @@
     "mongoose": "^5.7.13"
   },
   "devDependencies": {
-    "nodemon": "^2.0.1"
+    "jest": "^24.9.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^2.0.1",
+    "supertest": "^4.0.2"
   }
 }
