@@ -10,9 +10,7 @@ mongoose.connect(`mongodb+srv://USUARIO:SIDXQOaeYiFKLJ6u@cluster0-tqifr.mongodb.
     useUnifiedTopology: true
 });
 
-app.use((req, res, next) => {
-    next();
-});
+
 
 app.use(bodyParser.json());
 app.use(require(`./routes`))

@@ -1,11 +1,20 @@
-const mongoose = require(`mongoose`)
+const mongoose = require('mongoose')
 
 const SignSchema = new mongoose.Schema({
-    name: String,
-    birthdate: Date,
-    starSign: String
+    name: {
+        type: String,
+        required: true
+    },
+    birthdate: {
+        type: Date,
+        required: true
+    },
+    starSign: {
+        type: String,
+        required: true
+    },
 }, {
     timestamps: true
 });
 
-module.exports = mongoose.model(`Sign`, SignSchema)
+module.exports = mongoose.model('Sign', SignSchema)
