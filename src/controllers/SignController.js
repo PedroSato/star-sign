@@ -155,5 +155,9 @@ module.exports = {
                 return res.status(400).json({ message: 'Invalid date' })
             }
         }
+    }, async list(req, res) {
+        const signs = await Sign.find()
+
+        return res.json(signs)
     }
 }

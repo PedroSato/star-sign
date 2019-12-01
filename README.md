@@ -16,7 +16,9 @@ Depois de instalar as dependencias você deve pode executar o comando:
 npm run dev
 ```
 
-Agora você pode fazer requisições na rota /GET localhost:3333/signo enviando name (String) e birthdate (String "dd-mm-yyyy") como parâmetros da requisição
+Agora você pode fazer requisições na rota /GET localhost:3333/signo enviando name (String) e birthdate (String "dd-mm-yyyy") como parâmetros da requisição.
+
+Como o banco de dados está na nuvem você pode também fazer uma requisição na rota /GET localhost:3333/signo/lista para receber todos os dados salvos.
 
 ### Prerequisitos
 
@@ -55,6 +57,8 @@ npm run dev
 ```
 
 Now you can make requests at the endpoint /GET localhost:3333/signo sending name(String) and birthdate(String "dd-mm-yyyy") as query parameters
+
+Because the database is running on a cloud service you can make a request at the endpoint /GET localhost:3333/signo/lista to get all the saved data
 
 ### Prerequisites
 
