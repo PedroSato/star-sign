@@ -16,7 +16,7 @@ Depois de instalar as dependencias você deve pode executar o comando:
 npm run dev
 ```
 
-Agora você pode fazer requisições na rota /GET localhost:3333/signo enviando name e birthdate como parâmetros da requisição
+Agora você pode fazer requisições na rota /GET localhost:3333/signo enviando name (String) e birthdate (String "dd-mm-yyyy") como parâmetros da requisição
 
 ### Prerequisitos
 
@@ -54,7 +54,7 @@ After installing the dependencies you can just run the command:
 npm run dev
 ```
 
-Now you can make requests at the endpoint /GET localhost:3333/signo sending name and birthdate as query parameters
+Now you can make requests at the endpoint /GET localhost:3333/signo sending name(String) and birthdate(String "dd-mm-yyyy") as query parameters
 
 ### Prerequisites
 
